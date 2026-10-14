@@ -11,7 +11,7 @@
 
 [Noto Color Emoji](https://github.com/googlefonts/noto-emoji) with sizes and other adjustments for CJK monospace fonts.  
 Since em size = width and line gap = 0, the layout is less likely to break when specified as a fallback font.  
-CBDT, COLRv0, sbix, and OT-SVG formrts are provided to ensure compatibility across various environments.
+CBDT, COLRv1, sbix, and OT-SVG formrts are provided to ensure compatibility across various environments.
 
 ## Variations
 
@@ -30,7 +30,7 @@ CBDT, COLRv0, sbix, and OT-SVG formrts are provided to ensure compatibility acro
 
 ## Download
 
-Please download from [Releases](https://github.com/omonomo/NotoColorEmoji/releases).
+Please download from [Releases](https://github.com/omonomo/NCemojiTT/releases).
 
 You can also install it via [Homebrew](https://brew.sh/). Please refer to [this](https://github.com/omonomo/homebrew-tap) guide.
 
@@ -75,3 +75,7 @@ These are custom modified and composited fonts I created.
 ### Japanese monospaced fonts customized for development use
 
 - [Japanese Font Development Project](https://github.com/omonomo/JPMonoFonts)
+
+### Color emoji fonts sized for CJK monospace fonts
+
+- [TwemojiTT](https://github.com/omonomo/TwemojiTT): Twemoji

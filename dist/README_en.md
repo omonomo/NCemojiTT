@@ -1,11 +1,11 @@
 # NCemojiTT (Size-adjusted version of Noto Color Emoji)
 
-Twemoji graphics (c) Twitter, Inc and other contributors ([/jdecked/twemoji](https://github.com/jdecked/twemoji)).  
-Font adaptation (c) 2026 omonomo ([/omonomo/Twemoji-ttf](https://github.com/omonomo/Twemoji-ttf)).
+Copyright 2013 Google LLC ([googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji)); flag graphics from region-flags (public domain).  
+Font adaptation (c) 2026 omonomo ([/omonomo/NCemojiTT](https://github.com/omonomo/NCemojiTT)).
 
 Noto Color Emoji with sizes and other adjustments for CJK monospace fonts.  
 Since em size = width and line gap = 0, the layout is less likely to break when specified as a fallback font.  
-CBDT, COLRv0, sbix, and OT-SVG formrts are provided to ensure compatibility across various environments.
+CBDT, COLRv1, sbix, and OT-SVG formrts are provided to ensure compatibility across various environments.
 
 ## Variations
 

@@ -1,11 +1,11 @@
 # NCemojiTT (サイズ等改変版 Noto Color Emoji)
 
-Copyright 2013 Google LLC ([googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji)); flag graphics from region-flags (public domain).
+Copyright 2013 Google LLC ([googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji)); flag graphics from region-flags (public domain).  
 Font adaptation (c) 2026 omonomo ([/omonomo/NCemojiTT](https://github.com/omonomo/NCemojiTT)).
 
 CJK 等幅フォント用にサイズなどを調整した Noto Color Emoji です。  
 em size = width で line gap = 0 のため、フォールバックフォントに指定した際にレイアウトが崩れにくいと思われます。  
-様々な環境に対応できるように CBDT、COLRv0、sbix、OT-SVG の各フォーマットを用意しました。
+様々な環境に対応できるように CBDT、COLRv1、sbix、OT-SVG の各フォーマットを用意しました。
 
 ## バリエーション
 

@@ -11,7 +11,7 @@
 
 CJK 等幅フォント用にサイズなどを調整した [Noto Color Emoji](https://github.com/googlefonts/noto-emoji) です。  
 em size = width で line gap = 0 のため、フォールバックフォントに指定した際にレイアウトが崩れにくいと思われます。  
-様々な環境に対応できるように CBDT、COLRv0、sbix、OT-SVG の各フォーマットを用意しました。
+様々な環境に対応できるように CBDT、COLRv1、sbix、OT-SVG の各フォーマットを用意しました。
 
 ## バリエーション
 
@@ -30,7 +30,7 @@ em size = width で line gap = 0 のため、フォールバックフォント�
 
 ## ダウンロード
 
-[Releases](https://github.com/omonomo/NotoColorEmoji/releases) からお願いいたします。
+[Releases](https://github.com/omonomo/NCemojiTT/releases) からお願いいたします。
 
 [Homebrew](https://brew.sh/ja/) でもインストールできます。[こちら](https://github.com/omonomo/homebrew-tap)をご参照下さい。
 
@@ -75,3 +75,7 @@ em size = width で line gap = 0 のため、フォールバックフォント�
 ### 開発用途向けにカスタマイズした日本語等幅フォント
 
 - [日本語フォント開発用途化計画](https://github.com/omonomo/JPMonoFonts)
+
+### CJK等幅フォント用にサイズ調整したカラー絵文字
+
+- [TwemojiTT](https://github.com/omonomo/TwemojiTT): Twemoji
