@@ -7,7 +7,7 @@
   	</thead>
 </table>
 
-# NotoColorEmojiTT (Size-adjusted version of Noto Color Emoji)
+# NCemojiTT (Size-adjusted version of Noto Color Emoji)
 
 [Noto Color Emoji](https://github.com/googlefonts/noto-emoji) with sizes and other adjustments for CJK monospace fonts.  
 Since em size = width and line gap = 0, the layout is less likely to break when specified as a fallback font.  
@@ -15,13 +15,13 @@ CBDT, COLRv0, sbix, and OT-SVG formrts are provided to ensure compatibility acro
 
 ## Variations
 
-### NotoColorEmojiTT-*.ttf
+### NCemojiTT-*.ttf
 
 - Standard version. All glyphs are full-width.
 
 <img alt="TT" src="./images/TT.png" width="138">
 
-### NotoColorEmojiTTTM-*.ttf
+### NCemojiTTTM-*.ttf
 
 - A version compatible with terminal emulators.
 - The glyph width for characters in text styles other than Fullwidth and Wide is halved.
@@ -39,9 +39,9 @@ omonomo assumes no responsibility for any issues or damages resulting from the u
 
 ## License
 
-- The font license is [SIL Open Font License v1.1](https://github.com/omonomo/NotoColorEmojiTT/blob/main/OFL.txt).
+- The font license is [SIL Open Font License v1.1](https://github.com/omonomo/NCemojiTT/blob/main/OFL.txt).
 - It inherits the [license](https://github.com/googlefonts/noto-emoji/blob/main/LICENSE) of the source font.
-- The generation script is licensed under the [MIT License](https://github.com/omonomo/NotoColorEmojiTT/blob/main/LICENSE.txt).
+- The generation script is licensed under the [MIT License](https://github.com/omonomo/NCemojiTT/blob/main/LICENSE.txt).
 
 ## About the Generation Script
 

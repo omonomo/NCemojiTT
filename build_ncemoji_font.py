@@ -34,6 +34,7 @@ Noto Color Emoji の SVG からカラー絵文字フォントを作るスクリ�
     git(Noto Emoji の SVG を取得するため)
 
 使い方の例 (usage):
+    # COLRv1(デフォルト、COLRv0より互換性は低い。互換性重視のため glyf_colr_1 がデフォルト)
     python3 build_noto_emoji_font.py --upem 1024 --ascender 860 --descender -164 \
         --linegap 0 --width 1024 --scale 0.9
     # → dist/Noto-Color-Emoji-COLRv1.ttf(dist フォルダは作業フォルダ work/ と同じ場所に作られる。
@@ -162,7 +163,7 @@ COPYRIGHT = ("Copyright 2013 Google LLC (googlefonts/noto-emoji); "
              "Font adaptation (c) 2026 omonomo.")  # [0] 著作権表示
 MANUFACTURER = "omonomo"  # [8] 製作者
 DESIGNER = "Google LLC"  # [9] デザイナー名
-VENDOR_URL = "https://github.com/omonomo/NotoColorEmojiTT"  # [11] 製作者(ベンダー)の URL
+VENDOR_URL = "https://github.com/omonomo/NCemojiTT"  # [11] 製作者(ベンダー)の URL
 DESIGNER_URL = "https://github.com/googlefonts/noto-emoji"  # [12] デザイナーの URL
 LICENSE_DESCRIPTION = ("This Font Software is licensed under the SIL Open Font License, Version 1.1. "
                        "This license is available with a FAQ at: https://openfontlicense.org")  # [13] ライセンスの説明

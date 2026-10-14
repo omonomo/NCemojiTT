@@ -1,4 +1,4 @@
-# NotoColorEmojiTT (Size-adjusted version of Noto Color Emoji)
+# NCemojiTT (Size-adjusted version of Noto Color Emoji)
 
 Twemoji graphics (c) Twitter, Inc and other contributors ([/jdecked/twemoji](https://github.com/jdecked/twemoji)).  
 Font adaptation (c) 2026 omonomo ([/omonomo/Twemoji-ttf](https://github.com/omonomo/Twemoji-ttf)).
@@ -9,18 +9,18 @@ CBDT, COLRv0, sbix, and OT-SVG formrts are provided to ensure compatibility acro
 
 ## Variations
 
-### NotoColorEmojiTT-*.ttf
+### NCemojiTT-*.ttf
 
 - Standard version. All glyphs are full-width.
 
-### NotoColorEmojiTTTM-*.ttf
+### NCemojiTTTM-*.ttf
 
 - A version compatible with terminal emulators.
 - The glyph width for characters in text styles other than Fullwidth and Wide is halved.
 
 ## License
 
-- The font license is [SIL Open Font License v1.1](https://github.com/omonomo/NotoColorEmojiTT/blob/main/OFL.txt).
+- The font license is [SIL Open Font License v1.1](https://github.com/omonomo/NCemojiTT/blob/main/OFL.txt).
 - It inherits the [license](https://github.com/googlefonts/noto-emoji/blob/main/LICENSE) of the source font.
 
 ## Acknowledgments

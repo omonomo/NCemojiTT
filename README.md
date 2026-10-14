@@ -7,7 +7,7 @@
   	</thead>
 </table>
 
-# NotoColorEmojiTT (サイズ等改変版 Noto Color Emoji)
+# NCemojiTT (サイズ等改変版 Noto Color Emoji)
 
 CJK 等幅フォント用にサイズなどを調整した [Noto Color Emoji](https://github.com/googlefonts/noto-emoji) です。  
 em size = width で line gap = 0 のため、フォールバックフォントに指定した際にレイアウトが崩れにくいと思われます。  
@@ -15,13 +15,13 @@ em size = width で line gap = 0 のため、フォールバックフォント�
 
 ## バリエーション
 
-### NotoColorEmojiTT-*.ttf
+### NCemojiTT-*.ttf
 
 - 標準版。全てのグリフが全角幅になっています。
 
 <img alt="TT" src="./images/TT.png" width="138">
 
-### NotoColorEmojiTTTM-*.ttf
+### NCemojiTTTM-*.ttf
 
 - ターミナルエミュレータ対応版。
 - テキストスタイルの文字幅が Fullwidth、Wide ではない文字のグリフ幅を半分にしています。
@@ -39,9 +39,9 @@ em size = width で line gap = 0 のため、フォールバックフォント�
 
 ## ライセンス
 
-- フォントのライセンスは [SIL Open Font License v1.1](https://github.com/omonomo/NotoColorEmojiTT/blob/main/OFL.txt) です。
+- フォントのライセンスは [SIL Open Font License v1.1](https://github.com/omonomo/NCemojiTT/blob/main/OFL.txt) です。
 - 素材フォントの[ライセンス](https://github.com/googlefonts/noto-emoji/blob/main/LICENSE)を継承しています。
-- 生成スクリプトのライセンスは [MIT License](https://github.com/omonomo/NotoColorEmojiTT/blob/main/LICENSE.txt) です。
+- 生成スクリプトのライセンスは [MIT License](https://github.com/omonomo/NCemojiTT/blob/main/LICENSE.txt) です。
 
 ## 生成スクリプトについて
 
