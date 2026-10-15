@@ -249,7 +249,7 @@ def parse_args():
     # 1 文字分の送り幅(カーソルが進む量)。全角相当なら upem と同じにする
     p.add_argument("--width", type=int, default=1024, help="advance width")
     # 絵文字の大きさを em に対する比率で指定(0.9 なら em の 90%)
-    p.add_argument("--scale", type=float, default=0.9, help="glyph size as a fraction of upem")
+    p.add_argument("--scale", type=float, default=1.0, help="glyph size as a fraction of upem")
     # 出力形式(ベクター / ビットマップ / OT-SVG)。一覧は VECTOR_FORMATS などの定数を参照
     p.add_argument("--format", default="glyf_colr_1", choices=VECTOR_FORMATS + BITMAP_FORMATS + SVG_FORMATS,
                    help="nanoemoji color format")
@@ -306,7 +306,7 @@ def parse_args():
                    help="for terminals: make the text style of East_Asian_Width H/Na/N/A characters "
                         "(and U+0020) half width (--width / 2); emoji style (FE0F) stays full width")
     # --ambiguous の半角グリフの横の倍率。グリフの幅 = upem * --scale * この値(高さは変えない)
-    p.add_argument("--scale-ambiguous", type=float, default=0.55,
+    p.add_argument("--scale-ambiguous", type=float, default=0.5,
                    help="with --ambiguous: horizontal glyph scale of the half-width glyphs "
                         "(glyph width = upem * --scale * this, height unchanged; default 0.55)")
     # フォントのバージョン。省略時は noto-emoji の NotoColorEmoji.tmpl.ttx.tmpl の fontRevision
