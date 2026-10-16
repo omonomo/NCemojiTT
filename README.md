@@ -24,7 +24,7 @@ em size = width で line gap = 0 のため、フォールバックフォント�
 ### NCemojiTTTM-*.ttf
 
 - ターミナルエミュレータ対応版。
-- テキストスタイルの文字幅が Fullwidth、Wide ではない文字のグリフ幅を半分にしています。
+- テキストスタイルが Fullwidth、Wide ではない文字を半角幅にしています。
 
 <img alt="TTTM" src="./images/TTTM.png" width="138">  
 
