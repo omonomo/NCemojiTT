@@ -72,7 +72,7 @@ em size = width で line gap = 0 のため、フォールバックフォント�
 
 - [Awroit](https://omonomo.github.io/Awroit/): iA Writer Quattro + IBM Plex Mono + Cyroit
 
-### 開発用途向けにカスタマイズした日本語等幅フォント
+### 開発用途向けにカスタマイズした日本語フォント
 
 - [日本語フォント開発用途化計画](https://github.com/omonomo/JPMonoFonts)
 
